@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+}
+#head .product h2 {
+  font-size: 28px;
+  padding: 8px;
+}
+#head .product h2 #line {
+  border-bottom: 4px solid red;
+}
+#head .about ul {
+  display: flex;
+}
+#head .about ul li {
+  padding: 8px;
+  font-size: 18px;
+  list-style-type: none;
+}
+#head .about ul li #line {
+  border-bottom: 2px solid red;
+}
+
+.image {
+  contain: 90%;
+  display: flex;
+  gap: 20px;
+}
+.image .image-1 {
+  margin: 40px 0;
+}
+.image .image-1 .green {
+  position: absolute;
+  color: #fff;
+  border-radius: 3px;
+  background-color: green;
+  z-index: 947;
+  margin: 5px;
+  padding: 4px 8px;
+  border: 1px solid green;
+}
+.image .image-1 .aa {
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+.image .image-2 {
+  margin: 40px 0;
+}
+.image .image-2 .aa {
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+.image .image-3 {
+  margin: 40px 0;
+}
+.image .image-3 .aa {
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+.image .image-4 {
+  margin: 40px 0;
+}
+.image .image-4 .aa {
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+
+.star {
+  display: flex;
+}
+.star img {
+  width: 15px;
+  height: 15px;
+}/*# sourceMappingURL=main.css.map */
